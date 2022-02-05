@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgb(0,0,0,0.8)),url(solo.png);
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+}
+nav{
+    background-color:rgb(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    border-radius: 30pc;
+    margin-left: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+nav ul li {
+    list-style: none;
+    margin: 5px;
+    font-family: century;
+    padding: 5px;
+}
+nav ul li:hover{
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+    background-color:white;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 30px;
+    font-family:"Roboto"Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+nav ul li a:hover{
+    color:black;
+}
+#home{
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 20%;
+    font-family: "Roboto"sans-serif;
+    margin-right: 10%;
+    font-size: 40px;
+    line-height: 1.5em;
+}
+.border{
+    display: block;
+    margin-left: auto;
+    width: 200px;
+    height: 3px;
+    background: #fff;
+}
+button{
+    float: right;
+    margin-right: 15%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    color:white;
+    background-color:black;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px white;
+}
+.about h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-family: century;
+}
+.about h1:hover{
+    text-shadow: 0 0 5px black;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.container img{
+    margin-left: 30px;
+    margin-top: 5%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.container :hover{
+    box-shadow: 0 0 10 white;
+    border: 1px solid white;
+}
+.container p{
+    margin-top: 5%;
+    margin-left: 20px;
+    text-align: justify;
+    font-family: "Roboto"sans-serif;
+    max-width: 600px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main li{
+    list-style-type: none;
+}
+.main a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    margin:10px 3px ;
+}
+.main a:hover{
+    color: red;
+}
+
+
+#portfolio{
+    background-color: rgba(0,0,0,1);
+}
+.portfolio h1{
+    color: white;
+    clear: both;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-family: century;
+}
+.portfolio h1:hover{
+    text-shadow: 0 0 10px white;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.images img{
+    padding: 5px;
+}
+.images img:hover{
+    box-shadow: 0 0 5px black;
+    border: 1px solid black;
+}
+.services  h1{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-family: century;
+}
+.true{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.min{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.min:hover{
+    box-shadow: 0 0 50px black;
+    transition: .4s all ease-in;
+}
+.min img{
+    border-radius: 13px;
+    align-self: center;
+    margin-top: 10px;
+}
+.min h1{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 5px;
+    text-transform: uppercase;
+    font-family: century;
+}
+.min p{
+    text-align: justify;
+    padding-top: 20px;
+    font-family: "Roboto"sans-serif;
+    margin: 10px 15px;
+    color: white;
+}
+.min a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    align-self: center;
+    text-align: center;
+    border: 1px solid white;
+    width: 100px;
+    font-family: century;
+    padding: 5px;
+}
+.min a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10 white;
+}
+
+
+.contact{
+    background-color: rgba(0,0,0,0.2);
+}
+.contact h1{
+    color: black;
+    clear: both;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-family: century;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.com a{
+    text-decoration: none;
+    color: black;
+    text-transform:capitalize;
+}
+.save{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.save .main{
+    margin: 10px;
+}
+.save img{
+    margin:10px 5px;
+    border-radius: 60%;
+    align-self: center;
+}
+.save img:hover{
+    box-shadow: 0 0 10 white;
+    cursor: pointer;
+}
+.pop{
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
